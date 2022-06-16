@@ -1,0 +1,26 @@
+.item{
+    display: flex;
+}
+
+.nameStyle{
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.numberStyle{
+    font-weight: 700;
+}
+
+.buttonStyle{
+    font-weight: 700;
+    border-radius: 6px;
+    border: 1px solid;
+    cursor: pointer;
+
+    margin-left: 10px;
+}
+
+.buttonStyle:active{
+    background-color: skyblue;
+    border-color: skyblue;
+}
